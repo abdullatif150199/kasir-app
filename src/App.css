@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #22668a;
+}
+.overflow-scroll::-webkit-scrollbar {
+  display: none;
+}
+.categoryAktif {
+  background-color: #22668a;
+  color: white;
+}
+
+.categories:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .keranjang {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .products {
+    margin-top: 35px;
+  }
+
+  .hasil {
+    margin-top: 35px;
+  }
+}
